@@ -8,7 +8,7 @@ public class phaseITest {
 
 	@Test
 	public void testFailure() {
-		//fail("test failure");
+		fail("test failure");
 		System.out.println("\nTest Phase I");
 	}
 
