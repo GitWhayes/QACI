@@ -7,9 +7,13 @@ import org.junit.Test;
 public class phaseITest {
 
 	@Test
-	public void test() {
-		//fail("Not yet implemented");
-		System.out.println("Test Phase I");
+	public void testFailure() {
+		//fail("test failure");
+		System.out.println("\nTest Phase I");
 	}
 
+	@Test
+	public void testSuccess() {
+		System.out.println("\nTest Phase I");
+	}
 }
