@@ -5,4 +5,50 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>QACIPhaseI</name>
   <description>QA CI Integration Phase I		</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.httpcomponents</groupId>
+  		<artifactId>httpclient</artifactId>
+  		<version>4.5.3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.httpcomponents</groupId>
+  		<artifactId>httpcore</artifactId>
+  		<version>4.4.8</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-compiler-plugin</artifactId>
+  		<version>3.5.1</version>
+  		<type>maven-plugin</type>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.maven.surefire</groupId>
+  		<artifactId>surefire-junit</artifactId>
+  		<version>2.6</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-chrome-driver</artifactId>
+  		<version>3.4.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-server</artifactId>
+  		<version>3.4.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.smartbear.readyapi</groupId>
+  		<artifactId>testserver-maven-plugin</artifactId>
+  		<version>1.0.0</version>
+  		<type>maven-plugin</type>
+  	</dependency>
+  </dependencies>
 </project>
