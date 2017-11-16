@@ -3,12 +3,12 @@ package aidQACIPhaseI;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class whTestAssertions {
+public class TestAssertions {
 
 	@Test
-	 public void testAssertions() {
+	public void testAssertions() {
 		
-		System.out.println("\nIn Test Assertions");
+	System.out.println("\nIn Test Assertions test case.");
     //test data
     String str1 = new String ("abc");
     String str2 = new String ("ABC");
@@ -16,7 +16,7 @@ public class whTestAssertions {
     String str4 = "abc";
     String str5 = "abc";
 		
-    int val1 = 5;
+    int val1 = 50;
     int val2 = 6;
 
     String[] expectedArray = {"one", "two", "three"};
