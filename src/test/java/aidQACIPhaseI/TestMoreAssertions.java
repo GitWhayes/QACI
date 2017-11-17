@@ -40,8 +40,8 @@ public class TestMoreAssertions {
     System.out.println("\nCheck that two objects are equal");
     assertEquals(str1, str2);
 
-    System.out.println("\nCheck that a condition is true");
-    assertTrue (val1 < val2);
+    //System.out.println("\nCheck that a condition is true");
+   // assertTrue (val1 < val2);
 
     //Check that a condition is false
     assertFalse(val1 > val2);
@@ -66,8 +66,9 @@ public class TestMoreAssertions {
     @Test
     public void testGetTheStringArray() {
         System.out.println("\nIn Get the String Array method");
-        String[] whArray = {"Harmony", "Unity", "Freddy", "Janae", "Markus", "Wanda"};
-        String[] expectedArray = {"one", "two", "three"};
+      //  String[] whArray = {"Harmony", "Unity", "Freddy", "Janae", "Markus", "Wanda"};
+        String[] whArray = {"Harmony", "Unity", "Freddy"};
+        String[] expectedArray = {"Harmony", "Unity", "Freddy"};
 
        System.out.println("Expected " + expectedArray[2] + " whArray[5] " + whArray.toString());
         assertArrayEquals(expectedArray, whArray);
@@ -91,7 +92,7 @@ public class TestMoreAssertions {
            
         	System.out.println(t);
           //  System.out.println(collector.toString());
-			fail("This test failed message - WH");
+			fail("This test failed message - WHayes Demo");
           //  assertEquals(otherval1 + " is less than " + otherval2, t.getMessage());
         }
     }

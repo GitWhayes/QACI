@@ -11,7 +11,7 @@ public class TestAssertions {
 	System.out.println("\nIn Test Assertions test case.");
     //test data
     String str1 = new String ("abc");
-    String str2 = new String ("ABC");
+    String str2 = new String ("abc");
     String str3 = null;
     String str4 = "abc";
     String str5 = "abc";
@@ -26,10 +26,10 @@ public class TestAssertions {
     assertEquals(str1, str2);
 
     //Check that a condition is true
-    assertTrue (val1 < val2);
+    assertTrue (val1 > val2);
 
     //Check that a condition is false
-    assertFalse(val1 > val2);
+    assertFalse(val1 < val2);
 
     //Check that an object isn't null
     assertNotNull(str1);
